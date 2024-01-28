@@ -1,5 +1,6 @@
 from NaiveBayes import *
 
+
 def main():
     plt.figure()
     dataset = pd.read_csv("FinalStemmedSentimentAnalysisDataset.csv",delimiter=";")
